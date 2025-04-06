@@ -1,0 +1,13 @@
+# requirements.txt
+fastapi
+uvicorn[standard] # Includes ASGI server and standard dependencies
+sqlalchemy[asyncio] # Core SQLAlchemy + async support
+aiosqlite # Async driver for SQLite
+pydantic
+pydantic-settings
+openai
+backoff
+python-dotenv # For loading .env file
+
+# Optional, but good practice for pinning:
+# Example: sqlalchemy == 2.0.29
